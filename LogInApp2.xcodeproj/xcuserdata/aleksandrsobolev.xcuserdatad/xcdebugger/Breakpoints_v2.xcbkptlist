@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8D4D627F-79E8-48CE-BFE5-E48BD9633716"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB157204-29CD-4244-BDDE-B8E6AF7475EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LogInApp2/WelcomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "WelcomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EB157204-29CD-4244-BDDE-B8E6AF7475EF - 3d47c5da87f820e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LogInApp2.WelcomeViewController.userLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "LogInApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/LogInApp2/LogInApp2/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "EB157204-29CD-4244-BDDE-B8E6AF7475EF - 44c3148e36e7c4d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LogInApp2.WelcomeViewController.userLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "LogInApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/LogInApp2/LogInApp2/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "EB157204-29CD-4244-BDDE-B8E6AF7475EF - 50cbceaf85ff387f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LogInApp2.WelcomeViewController.userLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "LogInApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/LogInApp2/LogInApp2/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "EB157204-29CD-4244-BDDE-B8E6AF7475EF - b17d6236f895b6cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LogInApp2.WelcomeViewController.userLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "LogInApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/LogInApp2/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "EB157204-29CD-4244-BDDE-B8E6AF7475EF - c639622622db65a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LogInApp2.WelcomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LogInApp2.WelcomeViewController"
+                  moduleName = "LogInApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/LogInApp2/LogInApp2/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "EB157204-29CD-4244-BDDE-B8E6AF7475EF - 9aa12a4e602f97a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LogInApp2.WelcomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LogInApp2.WelcomeViewController&gt;"
+                  moduleName = "LogInApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/LogInApp2/LogInApp2/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
