@@ -9,7 +9,7 @@ import UIKit
 
 class LogInViewController: UIViewController {
     
-// MARK: - IB Outlets
+    // MARK: - IB Outlets
     
     @IBOutlet weak var logInTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
@@ -18,14 +18,14 @@ class LogInViewController: UIViewController {
     private let user = "User"
     private let password = "Password"
     
-//MARK: - Navigation
+    //MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let welcomeVC = segue.destination as? WelcomeViewController else { return }
         welcomeVC.user = user
     }
-
-// MARK: - IB Actions
+    
+    // MARK: - IB Actions
     
     @IBAction func logInButtonPressed() {
         if logInTF.text != user || passwordTF.text != password {
@@ -47,7 +47,6 @@ class LogInViewController: UIViewController {
         logInTF.text = ""
         passwordTF.text = ""
     }
-    
 }
 
 
