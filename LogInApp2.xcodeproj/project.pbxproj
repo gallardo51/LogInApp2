@@ -15,6 +15,7 @@
 		BA580E3B2AF8CAE3007E05EB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA580E3A2AF8CAE3007E05EB /* WelcomeViewController.swift */; };
 		BA580E3D2AF8CB68007E05EB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA580E3C2AF8CB68007E05EB /* LogInViewController.swift */; };
 		BAEEA9EF2AFFAE2D002B9308 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA9EE2AFFAE2D002B9308 /* UserModel.swift */; };
+		BAEEA9F62B00D08A002B9308 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA9F52B00D08A002B9308 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BA580E3A2AF8CAE3007E05EB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		BA580E3C2AF8CB68007E05EB /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		BAEEA9EE2AFFAE2D002B9308 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BAEEA9F52B00D08A002B9308 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				BA580E3C2AF8CB68007E05EB /* LogInViewController.swift */,
 				BA580E3A2AF8CAE3007E05EB /* WelcomeViewController.swift */,
+				BAEEA9F52B00D08A002B9308 /* InfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				BA580E3B2AF8CAE3007E05EB /* WelcomeViewController.swift in Sources */,
 				BA580E272AF8BF6A007E05EB /* AppDelegate.swift in Sources */,
 				BAEEA9EF2AFFAE2D002B9308 /* UserModel.swift in Sources */,
+				BAEEA9F62B00D08A002B9308 /* InfoViewController.swift in Sources */,
 				BA580E292AF8BF6A007E05EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
