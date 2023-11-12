@@ -272,6 +272,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ФИО" id="T5x-1i-WvA"/>
+                    <connections>
+                        <outlet property="bornDateLabel" destination="ONo-6f-oMK" id="Z8e-TJ-VkG"/>
+                        <outlet property="cellPhoneLabel" destination="aBu-OU-gs0" id="JMy-OJ-XGE"/>
+                        <outlet property="cityFromLabel" destination="MRQ-f1-Vmd" id="6F8-ku-MLp"/>
+                        <outlet property="hobbyLabel" destination="c1n-3V-Pji" id="dQX-qo-Zik"/>
+                        <outlet property="userImageView" destination="Cr5-NT-bqP" id="Ljl-G0-ENb"/>
+                        <outlet property="zodiacSingLabel" destination="VWI-da-z3s" id="DWK-Hy-g7Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Brh-gQ-aZJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
