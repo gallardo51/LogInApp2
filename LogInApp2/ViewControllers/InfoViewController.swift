@@ -23,7 +23,7 @@ class InfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = user.person.fullName
+        navigationItem.title = user.person.fullName
         
         userImageView.image = UIImage(named: user.person.userImage)
         bornDateLabel.text = "\(user.person.bornDate)"
@@ -33,3 +33,4 @@ class InfoViewController: UIViewController {
         hobbyLabel.text = "\(user.person.hobby)"
     }
 }
+
