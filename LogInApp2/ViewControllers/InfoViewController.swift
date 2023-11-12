@@ -8,7 +8,11 @@
 import UIKit
 
 class InfoViewController: UIViewController {
-    @IBOutlet weak var userImageView: UIImageView!
+    @IBOutlet weak var userImageView: UIImageView! {
+        didSet {
+            userImageView.layer.cornerRadius = userImageView.frame.width / 2
+        }
+    }
     @IBOutlet weak var bornDateLabel: UILabel!
     @IBOutlet weak var zodiacSingLabel: UILabel!
     @IBOutlet weak var cityFromLabel: UILabel!
