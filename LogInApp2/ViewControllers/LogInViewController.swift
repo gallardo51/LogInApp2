@@ -15,32 +15,31 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var passwordTF: UITextField!
     
     //MARK: - Private properties
-    private let user = "User"
-    private let password = "Password"
+    private let user = User.getUserData()
     
     //MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let welcomeVC = segue.destination as? WelcomeViewController else { return }
-        welcomeVC.user = user
+        welcomeVC.user = user.login
     }
     
     // MARK: - IB Actions
     
     @IBAction func logInButtonPressed() {
-        if logInTF.text != user || passwordTF.text != password {
+        if logInTF.text != user.login || passwordTF.text != user.password {
             showAlert(
                 title: "Invalid login or password",
                 message: "Please, enter correct login and password",
                 textField: passwordTF
             )
+            }
         }
-    }
     
     @IBAction func forgotRegisterData(_ sender: UIButton) {
         sender.tag == 0
-        ? showAlert(title: "Oops!", message: "Your name is \(user) 😏")
-        : showAlert(title: "Oops!", message: "Your password is \(password) 😎")
+        ? showAlert(title: "Oops!", message: "Your name is \(user.login) 😏")
+        : showAlert(title: "Oops!", message: "Your password is \(user.password) 😎")
     }
     
     @IBAction func unwindSegue(segue: UIStoryboardSegue) {
